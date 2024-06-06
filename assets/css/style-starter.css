@@ -18685,6 +18685,10 @@ h3.title-style {
   line-height: 80px;
   font-weight: 700;
   text-transform: uppercase;
+  color: transparent !important;
+  background: transparent;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: var(--secondary-color);
 }
 
 .banner-left p {
@@ -20718,5 +20722,18 @@ ul.social-icons-contact li a {
   background-size: 100% 100%;
 }
 
+@font-face {
+  font-family: "imprima";
+  src: url("../font/imprima-regular-webfont.woff2") format("woff2"),
+    url("../font/imprima-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'imprima' !important;
+}
 
 /* //contact */

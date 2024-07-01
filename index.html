@@ -87,7 +87,7 @@
     <section class="w3l-banner py-5" id="home">
         <div class="container py-md-5 py-4">
             <div class="row align-items-center pt-5">
-                <div class="col-md-10 col-lg-6 banner-left pe-xl-5">
+                <div class="col-md-10 col-lg-7 banner-left pe-xl-5">
                     <h4>Hi👋, I'm JOSHUA</h4>
                     <h3 class="my-1">
                         <span class="typed-text"></span><span class="cursor">&nbsp</span>
@@ -101,7 +101,7 @@
                         <a href="about.html" class="btn btn-style me-2">Hire Me</a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                 </div>
             </div>
         </div>
@@ -149,17 +149,18 @@
     <!-- //logo partners -->
 
     <!-- grids section -->
-    <section class="w3l-bottom-grids-6 pt-sm-5 pb-5" id="features">
+    <section class="w3l-bottom-grids-6 pt-sm-5 pb-5 px-5 px-sm-3 px-md-auto" id="features">
         <div class="container pt-lg-4">
             <div class="grids-area-hny main-cont-wthree-fea row">
-                <div class="col-md-3 col-sm-4 ps-xl-5">
+                <div class="col-md-3 col-sm-4 ps-xl-5 d-flex flex-row flex-sm-column">
                     <h4 class="ab-exper-count mb-sm-4 ps-lg-4">22</h4>
-                    <p class="ab-content ps-lg-4">years of experience working</p>
+                    <p class="ab-content ps-lg-4 ps-3 pt-4 pt-sm-0 fw-semibold lh-sm">years of experience working</p>
                 </div>
-                <div class="col-xl-8 col-md-9 col-sm-8 offset-xl-1 ps-xl-0 pe-xl-5 mt-sm-0 mt-4">
-                    <h3 class="title-style mb-sm-5 mb-4">I'm a designer & developer with a passion for web design</h3>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 grids-feature">
+                <div class="col-xl-8 col-md-9 col-sm-8 offset-xl-1 ps-xl-0 pe-xl-5 mt-sm-0 mt-1 pt-0 pt-sm-4">
+                    <h3 class="fw-medium mb-3">A passionate professional, merging creativity and technical
+                        skill in web development.</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6  grids-feature">
                             <div class="area-box active">
                                 <div class="icon-style">
                                     <i class="fas fa-lightbulb"></i>
@@ -200,14 +201,21 @@
     <section class="w3l-aboutblock1 pt-lg-5 pt-2 pb-5" id="about">
         <div class="container py-md-5 py-4">
             <div class="row align-items-center">
-                <div class="col-lg-4">
-                    <div class="position-relative">
-                        <img src="assets/images/about.jpg" alt="" class="radius-image img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-8 ps-lg-5 mt-lg-0 mt-5">
+                <div class="d-block d-lg-none">
                     <h5 class="title-small mb-1">My Intro</h5>
                     <h3 class="title-style">About Me</h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="position-relative w-sm-75">
+                        <img src="assets/images/about.jpg" style="object-fit: cover;" alt=""
+                            class="radius-image img-fluid h-100">
+                    </div>
+                </div>
+                <div class="col-md-8 ps-lg-5 mt-md-0 mt-5">
+                    <div class="d-lg-block d-none">
+                        <h5 class="title-small mb-1">My Intro</h5>
+                        <h3 class="title-style">About Me</h3>
+                    </div>
                     <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
                         ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur
                         adipisicing
@@ -718,7 +726,7 @@
             </div>
             <!-- copyright -->
             <p class="copy-right-w3 text-white mt-5 pt-4">© 2021 Biodata. All rights reserved | Design by
-                <a href="http://w3layouts.com" target="_blank"> W3layouts.</a>
+                <a href="http://w3layuts.com" target="_blank"> W3layouts.</a>
             </p>
         </div>
     </footer>
@@ -843,7 +851,7 @@
         const typedTextSpan = document.querySelector(".typed-text");
         const cursorSpan = document.querySelector(".cursor");
 
-        const textArray = ["Designer", "Developer", "Freelancer"];
+        const textArray = ["Web Designer", "Web Developer", "Freelancer"];
         const typingDelay = 300;
         const erasingDelay = 10;
         const newTextDelay = 100; // Delay between current and next text
